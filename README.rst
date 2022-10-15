@@ -16,43 +16,11 @@ One of the libraries using Python Utils is Django Utils.
 
 Documentation is available at: https://python-utils.readthedocs.org/en/latest/
 
-Links
------
-
- - The source: https://github.com/WoLpH/python-utils
- - Project page: https://pypi.python.org/pypi/python-utils
- - Reporting bugs: https://github.com/WoLpH/python-utils/issues
- - Documentation: https://python-utils.readthedocs.io/en/latest/
- - My blog: https://wol.ph/
-
 Requirements for installing:
 ------------------------------------------------------------------------------
 
 For the Python 3+ release (i.e. v3.0.0 or higher) there are no requirements.
 For the Python 2 compatible version (v2.x.x) the `six` package is needed.
-
-Installation:
-------------------------------------------------------------------------------
-
-The package can be installed through `pip` (this is the recommended method):
-
-.. code-block:: bash
-
-    pip install python-utils
-    
-Or if `pip` is not available, `easy_install` should work as well:
-
-.. code-block:: bash
-
-    easy_install python-utils
-    
-Or download the latest release from Pypi (https://pypi.python.org/pypi/python-utils) or Github.
-
-Note that the releases on Pypi are signed with my GPG key (https://pgp.mit.edu/pks/lookup?op=vindex&search=0xE81444E9CE1F695D) and can be checked using GPG:
-
-.. code-block:: bash
-
-     gpg --verify python-utils-<version>.tar.gz.asc python-utils-<version>.tar.gz
 
 Quickstart
 ------------------------------------------------------------------------------
